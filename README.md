@@ -1,33 +1,39 @@
-Attendance Management System is a web based developed for daily employee attendance in company. If facilitates to access the attendance information of a particular employee in a particular work place.
+CKEditor 4
+==========
 
-===========ADMIN============
-- View dashboard
-- Count admin login
-- View employee's timein/timout
-- Delete record of employee
-- Add employee information
-- Print pdf/excel
+Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.  
+http://ckeditor.com - See LICENSE.md for license information.
 
-======EMPLOYEE LOGIN=======
+CKEditor is a text editor to be used inside web pages. It's not a replacement
+for desktop text editors like Word or OpenOffice, but a component to be used as
+part of web applications and websites.
 
-- Individual timein/timeout per employee
+## Documentation
 
-==VIEW EMPLOYEE PER TIMEIN/TIMOUT LOGIN==
+The full editor documentation is available online at the following address:
+http://docs.ckeditor.com
 
-- Show your daily timein/timeout
-- Trace your ip/pc name
+## Installation
 
-==UI/UX==
--bootstrap 4
--javascript
--css
--html5
--jquery
-etc...
+Installing CKEditor is an easy task. Just follow these simple steps:
 
-- XAMPP/PHP
-- DATABASE: attendance_sys.sql
+ 1. **Download** the latest version from the CKEditor website:
+    http://ckeditor.com. You should have already completed this step, but be
+    sure you have the very latest version.
+ 2. **Extract** (decompress) the downloaded file into the root of your website.
 
+**Note:** CKEditor is by default installed in the `ckeditor` folder. You can
+place the files in whichever you want though.
 
-CONTACT #:+254714643906
-If you want full source code just contact me
+## Checking Your Installation
+
+The editor comes with a few sample pages that can be used to verify that
+installation proceeded properly. Take a look at the `samples` directory.
+
+To test your installation, just call the following page at your website:
+
+	http://<your site>/<CKEditor installation path>/samples/index.html
+
+For example:
+
+	http://www.example.com/ckeditor/samples/index.html
